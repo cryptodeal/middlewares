@@ -27,7 +27,7 @@ app.use(staticServe('./static'));
 ### CJS Module
 
 ```js
-const staticServe = require('@nanoexpress/middleware-static-serve/cjs');
+const staticServe = require('@nanoexpress/middleware-static-serve');
 
 app.use(staticServe('./static'));
 ```
